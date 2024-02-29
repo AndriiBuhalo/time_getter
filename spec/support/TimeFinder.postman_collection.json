@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "827c7dfa-50e9-4fba-a548-e75303724286",
+		"name": "TimeFinder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/v1/time?city=Kyiv,New%20York,Boston,India,Pekin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/times?city=Kyiv,New%20York",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"times"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Kyiv,New%20York"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/v1/time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/times",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"times"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

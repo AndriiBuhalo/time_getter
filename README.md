@@ -1,24 +1,23 @@
-# README
+# Time Finder
+ ```bash
+  LINK  https://github.com/AndriiBuhalo/time_getter
+  ```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Setup
+  ```bash
+  git clone https://github.com/AndriiBuhalo/time_getter.git
+  cd time_getter
+  ```
 
-Things you may want to cover:
+before first start
+1. bundle install
+2. rails db:create db:migrate
 
-* Ruby version
+### Run the servers locally
+``` rails s```
 
-* System dependencies
+default port 3000
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### POSTMAN COLLECTION
+You can find inside file:
+```./spec/support/TimeFinder.postman_collection.json```
